@@ -78,15 +78,14 @@ Workflow automaticky:
 Veřejná verze projektu obsahuje pouze anonymizovaná data. Byly odstraněny nebo rozmazány:
 jména, e-mailové adresy, informace o tenantovi, interní identifikátory, osobní údaje.
 
-## 📈 Stav projektu
-Status: Completed Proof of Concept (PoC)
-Verze: V1
-Plánovaná rozšíření
-pokročilé AI hodnocení kandidátů
-HR dashboard
-Teams notifikace
-multi-agent náborový workflow
-reporting a analytika
+## 📈 Stav projektu: Proof of Concept (PoC) úspěšně dokončen
+
+**Budoucí roadmapa projektu:**
+
+* Rozšířené AI vyhodnocování kandidátů
+* Automatické notifikace do Microsoft Teams
+* HR dashboardy a analytický reporting
+* Multi-agentní systém pro podporu náborového procesu
 
 👩‍💻 Autor: Denisa Pitnerová
 Junior Cloud Administrator
@@ -172,15 +171,14 @@ AI Candidate Analysis
 ## 🔒 Security
 This public GitHub version contains only anonymized data.Removed or blurred information: names, email addresses, tenant information, internal identifiers, personal data
 
-## 📈 Project Status
-Status: Completed Proof of Concept (PoC)
-Version: V1
-Planned Improvements
-advanced AI candidate scoring
-HR dashboard
-Teams notifications
-multi-agent recruitment workflow
-reporting and analytics
+## 📈 Status: Completed Proof of Concept (PoC)
+
+Future roadmap:
+- Advanced AI candidate scoring
+- Teams notifications
+- HR dashboard and reporting
+- Multi-agent recruitment workflow
+
 👩‍💻 Author: Denisa Pitnerová
 Junior Cloud Administrator
 Microsoft 365 & Azure Enthusiast
