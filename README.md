@@ -38,13 +38,13 @@ AI Candidate Analysis
 ![AI HR Recruitment Workflow](screenshot_ai_powered_HR_Recruitment.png)
 
 ## ⚙ Použité technologie:
-Microsoft Forms
-Azure Logic Apps
-Power Automate
-SharePoint Online
-Outlook Shared Mailbox
-Azure OpenAI
-Microsoft 365
+- Microsoft Forms
+- Azure Logic Apps
+- Power Automate
+- SharePoint Online
+- Outlook Shared Mailbox
+- Azure OpenAI
+- Microsoft 365
 
 ## 🚀 Kroky workflow
 1. Registrace kandidáta
@@ -153,13 +153,13 @@ AI Candidate Analysis
 ![AI HR Recruitment Workflow](screenshot_ai_powered_HR_Recruitment.png)
 
 ## ⚙ Technologies
-Microsoft Forms
-Azure Logic Apps
-Power Automate
-SharePoint Online
-Outlook Shared Mailbox
-Azure OpenAI
-Microsoft 365
+- Microsoft Forms
+- Azure Logic Apps
+- Power Automate
+- SharePoint Online
+- Outlook Shared Mailbox
+- Azure OpenAI
+- Microsoft 365
 
 ## 🚀 Workflow Steps
 1. Candidate Registration
