@@ -43,6 +43,7 @@ Azure OpenAI
    ▼
 AI analýza kandidáta
 
+
 📷 Přehled workflow:
 ![AI HR Recruitment Workflow](screenshot_ai_powered_HR_Recruitment.png)
 
@@ -166,6 +167,7 @@ Azure OpenAI
    │
    ▼
 AI Candidate Analysis
+
 
 📷 Workflow Overview
 ![AI HR Recruitment Workflow](screenshot_ai_powered_HR_Recruitment.png)
