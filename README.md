@@ -83,11 +83,7 @@ doporučení pro HR tým
 
 ## 🔒 Bezpečnost
 Veřejná verze projektu obsahuje pouze anonymizovaná data. Byly odstraněny nebo rozmazány:
-jména
-e-mailové adresy
-informace o tenantovi
-interní identifikátory
-osobní údaje
+jména, e-mailové adresy, informace o tenantovi, interní identifikátory, osobní údaje.
 
 ## 📈 Stav projektu
 Status: Completed Proof of Concept (PoC)
@@ -99,18 +95,9 @@ Teams notifikace
 multi-agent náborový workflow
 reporting a analytika
 
-👩‍💻 Autor: Denisa Pitnerová
-Junior Cloud & Microsoft 365 Administrator
+👩‍💻 Autor: Denisa Pitnerová, Junior Cloud & Microsoft 365 Administrator
 
-Zájmy:
-Microsoft 365
-Azure
-SharePoint
-Power Platform
-Azure OpenAI
-Workflow Automation
-AI Agenti
-Cloud Governance
+Zájmy: Microsoft 365, Azure, SharePoint, Power Platform, Azure OpenAI, Workflow Automation, AI Agenti, Cloud Governance
 
 ------------
 ## (EN) AI HR Recruitment Workflow
@@ -146,7 +133,6 @@ Mailbox Intake Agent
 Azure OpenAI
 ↓
 AI Candidate Analysis
-
 
 
 ## 📷 Workflow Overview
@@ -195,12 +181,7 @@ candidate evaluation
 recruitment recommendations
 
 ## 🔒 Security
-This public GitHub version contains only anonymized data.Removed or blurred information:
-names
-email addresses
-tenant information
-internal identifiers
-personal data
+This public GitHub version contains only anonymized data.Removed or blurred information: names, email addresses, tenant information, internal identifiers, personal data
 
 ## 📈 Project Status
 Status: Completed Proof of Concept (PoC)
@@ -211,15 +192,6 @@ HR dashboard
 Teams notifications
 multi-agent recruitment workflow
 reporting and analytics
-👩‍💻 Author: Denisa Pitnerová
-Junior Cloud & Microsoft 365 Administrator
+👩‍💻 Author: Denisa Pitnerová, Junior Cloud & Microsoft 365 Administrator
 
-Areas of interest:
-Microsoft 365
-Azure
-SharePoint
-Power Platform
-Azure OpenAI
-Workflow Automation
-AI Agents
-Cloud Governance
+Areas of interest: Microsoft 365, Azure, SharePoint, Power Platform, Azure OpenAI, Workflow Automation, AI Agents, Cloud Governance
