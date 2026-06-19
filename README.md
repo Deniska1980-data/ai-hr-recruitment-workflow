@@ -9,27 +9,28 @@ Projekt slouží jako praktická ukázka využití Microsoft 365, Azure Logic Ap
 
 ## 🏗️ Architecture
 
-A[Candidate] --> B[Microsoft Forms]
-B --> C[Azure Logic App]
-
-C --> D[Create Candidate Record]
-C --> E[Generate Candidate ID]
-C --> F[Send Confirmation Email]
-C --> G[SharePoint Candidate Registry]
-
-G --> H[Candidate Sends CV]
-
-H --> I[Shared HR Mailbox]
-
-I --> J[Mailbox Intake Agent]
-
-J --> K[Save CV to SharePoint]
-J --> L[Update Candidate Record]
-J --> M[Notify HR Team]
-
-M --> N[Azure OpenAI]
-
-N --> O[AI Candidate Analysis]
+Candidate
+↓
+Microsoft Forms
+↓
+Azure Logic App
+├─ Create Candidate Record
+├─ Generate Candidate ID
+├─ Send Confirmation Email
+└─ SharePoint Candidate Registry
+↓
+Candidate Sends CV
+↓
+Shared HR Mailbox
+↓
+Mailbox Intake Agent
+├─ Save CV to SharePoint
+├─ Update Candidate Record
+└─ Notify HR Team
+↓
+Azure OpenAI
+↓
+AI Candidate Analysis
 
 
 📷 Přehled workflow:
@@ -122,27 +123,28 @@ The project serves as a practical demonstration of Microsoft 365, Azure Logic Ap
 
 ## 🏗️ Architecture
 
-A[Candidate] --> B[Microsoft Forms]
-B --> C[Azure Logic App]
-
-C --> D[Create Candidate Record]
-C --> E[Generate Candidate ID]
-C --> F[Send Confirmation Email]
-C --> G[SharePoint Candidate Registry]
-
-G --> H[Candidate Sends CV]
-
-H --> I[Shared HR Mailbox]
-
-I --> J[Mailbox Intake Agent]
-
-J --> K[Save CV to SharePoint]
-J --> L[Update Candidate Record]
-J --> M[Notify HR Team]
-
-M --> N[Azure OpenAI]
-
-N --> O[AI Candidate Analysis]
+Candidate
+↓
+Microsoft Forms
+↓
+Azure Logic App
+├─ Create Candidate Record
+├─ Generate Candidate ID
+├─ Send Confirmation Email
+└─ SharePoint Candidate Registry
+↓
+Candidate Sends CV
+↓
+Shared HR Mailbox
+↓
+Mailbox Intake Agent
+├─ Save CV to SharePoint
+├─ Update Candidate Record
+└─ Notify HR Team
+↓
+Azure OpenAI
+↓
+AI Candidate Analysis
 
 
 📷 Workflow Overview
