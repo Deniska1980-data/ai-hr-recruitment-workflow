@@ -9,9 +9,6 @@ Projekt slouží jako praktická ukázka využití Microsoft 365, Azure Logic Ap
 
 ## 🏗️ Architecture
 
-```mermaid
-flowchart TD
-
 A[Candidate] --> B[Microsoft Forms]
 B --> C[Azure Logic App]
 
@@ -124,9 +121,6 @@ The candidate submits an application using Microsoft Forms. The workflow automat
 The project serves as a practical demonstration of Microsoft 365, Azure Logic Apps, SharePoint, Power Automate and Azure OpenAI integration for recruitment process automation.
 
 ## 🏗️ Architecture
-
-```mermaid
-flowchart TD
 
 A[Candidate] --> B[Microsoft Forms]
 B --> C[Azure Logic App]
