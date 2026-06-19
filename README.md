@@ -88,7 +88,9 @@ Teams notifikace
 multi-agent náborový workflow
 reporting a analytika
 
-👩‍💻 Autor: Denisa Pitnerová, Junior Cloud & Microsoft 365 Administrator
+👩‍💻 Autor: Denisa Pitnerová
+Junior Cloud Administrator
+Microsoft 365 & Azure Enthusiast
 
 Zájmy: Microsoft 365, Azure, SharePoint, Power Platform, Azure OpenAI, Workflow Automation, AI Agenti, Cloud Governance
 
@@ -179,6 +181,8 @@ HR dashboard
 Teams notifications
 multi-agent recruitment workflow
 reporting and analytics
-👩‍💻 Author: Denisa Pitnerová, Junior Cloud & Microsoft 365 Administrator
+👩‍💻 Author: Denisa Pitnerová
+Junior Cloud Administrator
+Microsoft 365 & Azure Enthusiast
 
 Areas of interest: Microsoft 365, Azure, SharePoint, Power Platform, Azure OpenAI, Workflow Automation, AI Agents, Cloud Governance
