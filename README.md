@@ -7,41 +7,32 @@ Kandidát vyplní formulář v Microsoft Forms. Workflow následně automaticky 
 
 Projekt slouží jako praktická ukázka využití Microsoft 365, Azure Logic Apps, SharePointu, Power Automate a Azure OpenAI pro automatizaci náborových procesů.
 
-🏗 Architektura:
+## 🏗️ Architecture
 
-Kandidát
-   │
-   ▼
-Microsoft Forms
-   │
-   ▼
-Azure Logic App
-   │
-   ├── Vytvoření kandidáta
-   ├── Generování Candidate ID
-   └── Odeslání potvrzovacího e-mailu
-   │
-   ▼
-SharePoint – Registr kandidátů
-   │
-   ▼
-Odpověď kandidáta s CV
-   │
-   ▼
-Sdílená HR schránka
-   │
-   ▼
-Mailbox Intake Agent
-   │
-   ├── Uložení CV do SharePointu
-   ├── Aktualizace kandidáta
-   └── Notifikace HR týmu
-   │
-   ▼
-Azure OpenAI
-   │
-   ▼
-AI analýza kandidáta
+```mermaid
+flowchart TD
+
+A[Candidate] --> B[Microsoft Forms]
+B --> C[Azure Logic App]
+
+C --> D[Create Candidate Record]
+C --> E[Generate Candidate ID]
+C --> F[Send Confirmation Email]
+C --> G[SharePoint Candidate Registry]
+
+G --> H[Candidate Sends CV]
+
+H --> I[Shared HR Mailbox]
+
+I --> J[Mailbox Intake Agent]
+
+J --> K[Save CV to SharePoint]
+J --> L[Update Candidate Record]
+J --> M[Notify HR Team]
+
+M --> N[Azure OpenAI]
+
+N --> O[AI Candidate Analysis]
 
 
 📷 Přehled workflow:
@@ -132,41 +123,32 @@ The candidate submits an application using Microsoft Forms. The workflow automat
 
 The project serves as a practical demonstration of Microsoft 365, Azure Logic Apps, SharePoint, Power Automate and Azure OpenAI integration for recruitment process automation.
 
-## 🏗 Architecture
+## 🏗️ Architecture
 
-Candidate
-   │
-   ▼
-Microsoft Forms
-   │
-   ▼
-Azure Logic App
-   │
-   ├── Create Candidate Record
-   ├── Generate Candidate ID
-   └── Send Confirmation Email
-   │
-   ▼
-SharePoint Candidate Registry
-   │
-   ▼
-Candidate replies with CV
-   │
-   ▼
-Shared HR Mailbox
-   │
-   ▼
-Mailbox Intake Agent
-   │
-   ├── Save CV to SharePoint
-   ├── Update Candidate Record
-   └── Notify HR Team
-   │
-   ▼
-Azure OpenAI
-   │
-   ▼
-AI Candidate Analysis
+```mermaid
+flowchart TD
+
+A[Candidate] --> B[Microsoft Forms]
+B --> C[Azure Logic App]
+
+C --> D[Create Candidate Record]
+C --> E[Generate Candidate ID]
+C --> F[Send Confirmation Email]
+C --> G[SharePoint Candidate Registry]
+
+G --> H[Candidate Sends CV]
+
+H --> I[Shared HR Mailbox]
+
+I --> J[Mailbox Intake Agent]
+
+J --> K[Save CV to SharePoint]
+J --> L[Update Candidate Record]
+J --> M[Notify HR Team]
+
+M --> N[Azure OpenAI]
+
+N --> O[AI Candidate Analysis]
 
 
 📷 Workflow Overview
