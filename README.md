@@ -47,39 +47,32 @@ AI Candidate Analysis
 - Microsoft 365
 
 ## 🚀 Kroky workflow
-1. Registrace kandidáta
-Kandidát odešle žádost prostřednictvím Microsoft Forms.
+1. Registrace kandidáta: Kandidát odešle žádost prostřednictvím Microsoft Forms.
 
-2. Zpracování v Azure Logic App
+2. Zpracování v Azure Logic App: Workflow automaticky:
+- načte data z formuláře
+- vytvoří záznam v SharePointu
+- vytvoří Candidate ID
+- aktualizuje záznam
+- odešle potvrzovací e-mail
+
+3. Potvrzovací e-mail: Uchazeč obdrží potvrzovací e-mail obsahující:
+- Candidate ID
+- pokyny k zaslání životopisu
+- informace o náborovém procesu
+
+4. Zpracování životopisu: Uchazeč odpoví na e-mail a přiloží životopis.
 Workflow automaticky:
+- monitoruje HR schránku
+- detekuje přílohy
+- ukládá CV do SharePointu
+- aktualizuje záznam kandidáta
 
-načte data z formuláře
-vytvoří záznam v SharePointu
-vytvoří Candidate ID
-aktualizuje záznam
-odešle potvrzovací e-mail
-
-3. Potvrzovací e-mail
-Uchazeč obdrží potvrzovací e-mail obsahující:
-Candidate ID
-pokyny k zaslání životopisu
-informace o náborovém procesu
-
-4. Zpracování životopisu
-Uchazeč odpoví na e-mail a přiloží životopis.
-
-Workflow automaticky:
-monitoruje HR schránku
-detekuje přílohy
-ukládá CV do SharePointu
-aktualizuje záznam kandidáta
-
-5. AI analýza
-Azure OpenAI lze využít pro:
-shrnutí životopisu
-identifikaci dovedností
-hodnocení kandidátů
-doporučení pro HR tým
+5. AI analýza. Azure OpenAI lze využít pro:
+- shrnutí životopisu
+- identifikaci dovedností
+- hodnocení kandidátů
+- doporučení pro HR tým
 
 ## 🔒 Bezpečnost
 Veřejná verze projektu obsahuje pouze anonymizovaná data. Byly odstraněny nebo rozmazány:
@@ -148,37 +141,31 @@ AI Candidate Analysis
 - Microsoft 365
 
 ## 🚀 Workflow Steps
-1. Candidate Registration
-The candidate submits an application using Microsoft Forms.
+1. Candidate Registration: The candidate submits an application using Microsoft Forms.
 
-2. Azure Logic App Processing
-The workflow automatically:
-retrieves form data
-creates a SharePoint record
-generates a Candidate ID
-updates the record
-sends a confirmation email
+2. Azure Logic App Processing: The workflow automatically:
+- retrieves form data
+- creates a SharePoint record
+- generates a Candidate ID
+- updates the record
+- sends a confirmation email
 
-3. Confirmation Email
-The applicant receives a confirmation email containing:
-Candidate ID
-instructions for CV submission
-recruitment process information
+3. Confirmation Email: The applicant receives a confirmation email containing:
+- Candidate ID
+- instructions for CV submission
+- recruitment process information
 
-4. CV Processing
-The candidate replies to the email and attaches a CV.
-The workflow automatically:
-monitors the HR mailbox
-detects attachments
-stores CVs in SharePoint
-updates candidate records
+4. CV Processing: The candidate replies to the email and attaches a CV. The workflow automatically:
+- monitors the HR mailbox
+- detects attachments
+- stores CVs in SharePoint
+- updates candidate records
 
-5. AI Analysis
-Azure OpenAI can be used for:
-CV summarization
-skill extraction
-candidate evaluation
-recruitment recommendations
+5. AI Analysis. Azure OpenAI can be used for:
+- CV summarization
+- skill extraction
+- candidate evaluation
+- recruitment recommendations
 
 ## 🔒 Security
 This public GitHub version contains only anonymized data.Removed or blurred information: names, email addresses, tenant information, internal identifiers, personal data
