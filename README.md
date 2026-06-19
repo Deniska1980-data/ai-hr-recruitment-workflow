@@ -87,7 +87,7 @@ jména, e-mailové adresy, informace o tenantovi, interní identifikátory, osob
 * HR dashboardy a analytický reporting
 * Multi-agentní systém pro podporu náborového procesu
 
-👩‍💻 Autor: Denisa Pitnerová
+👩‍💻 Autor: Denisa Pitnerová,
 Junior Cloud Administrator
 Microsoft 365 & Azure Enthusiast
 
@@ -179,7 +179,7 @@ Future roadmap:
 - HR dashboard and reporting
 - Multi-agent recruitment workflow
 
-👩‍💻 Author: Denisa Pitnerová
+👩‍💻 Author: Denisa Pitnerová,
 Junior Cloud Administrator
 Microsoft 365 & Azure Enthusiast
 
